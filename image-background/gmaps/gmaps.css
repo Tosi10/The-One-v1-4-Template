@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+#map {
+width: 100%;
+height: 250px;
+overflow: hidden;
+margin: 0;
+padding: 0;
+
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox for Android */
+        filter: gray;                                                         /* IE6 - 9 */
+-webkit-filter: grayscale(100%);                                              /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+#map-navigation {
+position: absolute;
+font-weight: normal;
+left: 8px;
+top: 8px;
+}
+
+#map-navigation a {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+text-transform: none;
+font-size: 11px;
+line-height: 11px;
+height: 11px;
+color: #fff;
+background: #000;
+display: block;
+margin: 0 5px 0 0;
+float: left;
+outline: none;
+}
+
+#map-navigation a:hover {
+color: #000;
+background: #fff;
+}
+
+#roadmap {
+line-height: 11px;
+padding: 10px;
+font-style: normal;
+font-weight: normal;
+background: #000;
+}
+
+#satellite {
+line-height: 11px;
+padding: 10px;
+font-style: normal;
+font-weight: normal;
+background: #000;
+}
+
+#hybrid {
+line-height: 11px;
+padding: 10px;
+font-style: normal;
+font-weight: normal;
+background: #000;
+}
+
+#terrain {
+line-height: 11px;
+padding: 10px;
+font-style: normal;
+font-weight: normal;
+background: #000;
+}
+
+#zoom-out {
+line-height: 15px;
+font-weight: normal;
+background: #000;
+padding: 5px 10px 15px 10px;
+}
+
+#zoom-in {
+line-height: 15px;
+font-weight: normal;
+background: #000;
+padding: 5px 10px 15px 10px;
+}

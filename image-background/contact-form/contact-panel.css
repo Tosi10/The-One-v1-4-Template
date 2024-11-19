@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* top panel */
+#top-panel-container {
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+text-align: center;
+width: 100%;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+top: 74px;
+}
+
+.panel-shadow {
+width: 100%;
+height: 30px;
+background: url(top-shadow.png) repeat-x bottom;
+overflow: hidden;
+top: 0;
+left: 0;
+}
+
+.panel-button {
+width: 135px;
+height: 35px;
+position: absolute;
+right: 8px;
+top: -35px;
+background: none;
+cursor: pointer;
+display: visible;
+z-index: 1000;
+}
+
+.panel-button img {
+position: absolute;
+top: 9px;
+left: 15px;
+border: none;
+}
+
+.panel-button a {
+font-family: 'BebasNeueRegular';
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+text-decoration: none;
+position: relative;
+color: #fff;
+top: 9px;
+left: 30px;
+}
+
+.panel-button a:hover {
+font-family: 'BebasNeueRegular';
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+text-decoration: none;
+color: #a81c1b;
+}
+
+#close-button {
+display: none;
+}
+
+#top-panel {
+width: 100%;
+position: absolute;
+left: 0;
+z-index: 1000;
+}
+
+#panel {
+width: 100%;
+position: relative;
+top: 1px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+z-index: 1000;
+}
+
+#panel-contents {
+width: 100%;
+height: 100%;
+position: absolute;
+background: #000;
+overflow: hidden;
+z-index: 0;
+}
+
+/* top panel google maps */
+#top-panel-container-gmaps {
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+text-align: center;
+width: 100%;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+top: 74px;
+}
+
+.panel-shadow-gmaps {
+width: 100%;
+height: 30px;
+background: url(top-shadow.png) repeat-x bottom;
+overflow: hidden;
+top: 0;
+left: 0;
+}
+
+.panel-button-gmaps {
+width: 135px;
+height: 35px;
+position: absolute;
+left: 8px;
+top: -35px;
+background: none;
+cursor: pointer;
+display: visible;
+z-index: 1000;
+}
+
+.panel-button-gmaps img {
+position: absolute;
+top: 9px;
+right: 15px;
+border: none;
+}
+
+.panel-button-gmaps a {
+font-family: 'BebasNeueRegular';
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+text-decoration: none;
+position: relative;
+color: #fff;
+top: 9px;
+right: 30px;
+}
+
+.panel-button-gmaps a:hover {
+font-family: 'BebasNeueRegular';
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+text-decoration: none;
+color: #a81c1b;
+}
+
+#close-button-gmaps {
+display: none;
+}
+
+#top-panel-gmaps {
+width: 100%;
+position: absolute;
+left: 0;
+/* z-index: 1000; */
+}
+
+#panel-gmaps {
+width: 100%;
+position: relative;
+top: 1px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+z-index: 1000;
+}
+
+#panel-contents-gmaps {
+width: 100%;
+height: 100%;
+position: absolute;
+background: #000;
+overflow: hidden;
+z-index: 0;
+}
