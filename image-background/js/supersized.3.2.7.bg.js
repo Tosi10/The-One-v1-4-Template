@@ -35,7 +35,7 @@ jQuery(function($){
 					slides 					:  	[			// Slideshow Images
 													{image : 'images/background/imagimsite1 copy.png', title : 'Slide Caption 1', thumb : '', url : ''},
 													{image : 'images/background/Site2.jpeg', title : 'Slide Caption 2', thumb : '', url : ''},
-													{image : 'images/background/3.jpg', title : 'Slide Caption 3', thumb : '', url : ''},
+													{image : 'images/background/Tela.png', title : 'Slide Caption 3', thumb : '', url : ''},
 													{image : 'images/background/4.jpg', title : 'Slide Caption 4', thumb : '', url : ''},
 													{image : 'images/background/5.jpg', title : 'Slide Caption 5', thumb : '', url : ''},
 													{image : 'images/background/6.jpg', title : 'Slide Caption 6', thumb : '', url : ''},
