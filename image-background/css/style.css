@@ -654,7 +654,7 @@ bottom: 0;
 left: 0;
 width: 100%; 
 height: 95px;
-background: url(../images/footer-bg.png) repeat-x;
+/*background: url(../images/footer-bg.png) repeat-x;*/
 z-index: 999;
 }
 
@@ -665,7 +665,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: normal;
 position: absolute;
-left: 8px;
+/*margin-top: 650px;*/
+left: 28px;
 }
 
 #menu a {
@@ -1009,18 +1010,19 @@ font-size: 9px;
 text-transform: uppercase;
 position: fixed;
 width: auto;
-left: 8px;
+left: 30px;
+color: #fff;
 bottom: 5px;
-background: #fff;
+/*background: #fff;*/
 z-index: 999;
 }
 
 #copyright a {
-color: #000;
+color: white;
 }
 
 #copyright a:hover {
-color: #333;
+color: white;
 }
 
 /* 8. extras */
@@ -1390,7 +1392,7 @@ left: 0;
 width: 135px;
 height: 35px;
 position: absolute;
-left: 8px;
+left: 20px;
 top: -35px;
 background: none;
 cursor: pointer;
